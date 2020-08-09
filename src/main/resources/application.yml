@@ -1,0 +1,6 @@
+spring:
+    datasource:
+        url: jdbc:oracle:thin:@191.98.167.143:1521:INTEGDES
+        username: MOCHICA
+        password: MOCHICA
+        driver-class-name: oracle.jdbc.driver.OracleDriver
