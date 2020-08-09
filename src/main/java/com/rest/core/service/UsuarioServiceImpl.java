@@ -20,4 +20,10 @@ public class UsuarioServiceImpl implements UsuarioService{
 		return repository.lista(id);
 	}
 
+	@Override
+	public Usuario registrar(Usuario usuario) {
+		// TODO Auto-generated method stub
+		return repository.registrar(usuario);
+	}
+
 }

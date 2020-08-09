@@ -8,4 +8,6 @@ public interface UsuarioService {
 
 	List<Usuario> lista(int id);
 	
+	Usuario registrar(Usuario usuario);
+	
 }
